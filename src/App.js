@@ -10,7 +10,7 @@ import React from "react";
 
 import "./App.css";
 import { AppRouter } from "./routes/AppRouter";
-import { MainRouter } from "./routes/MainRouter";
+// import { MainRouter } from "./routes/MainRouter";
 
 function App() {
   return (
