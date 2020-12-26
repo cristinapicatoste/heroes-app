@@ -1,0 +1,38 @@
+.search-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.search input {
+  height: 40px;
+  border-radius: 30px;
+  padding: 0 10px;
+  margin: 20px 0 0;
+  border: none;
+  outline: none;
+  outline-width: 0;
+  background-color: rgba(255, 255, 255, 0.335);
+}
+
+.search input::placeholder {
+  color: rgba(255, 255, 255, 0.796);
+  width: 100%;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.result h1 {
+  width: 100%;
+}
