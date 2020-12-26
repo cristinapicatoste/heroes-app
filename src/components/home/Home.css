@@ -1,0 +1,12 @@
+.home-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home-wrap h1 {
+  width: 100%;
+  font-size: 5rem;
+  text-align: center;
+}

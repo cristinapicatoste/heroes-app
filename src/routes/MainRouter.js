@@ -8,6 +8,7 @@ import { Dc } from "../components/dc/Dc";
 import { Heroes } from "../components/heroes/Heroes";
 import { Logout } from "../components/logout/Logout";
 import { Search } from "../components/search/Search";
+import { Home } from "../components/home/Home";
 
 export const MainRouter = () => {
   return (
@@ -15,7 +16,7 @@ export const MainRouter = () => {
       <NavBar />
       <div>
         <Switch>
-          <Route exact path={route.HOME} component={Marvel} />
+          <Route exact path={route.HOME} component={Home} />
           <Route exact path={route.MARVEL} component={Marvel} />
           <Route exact path={route.DC} component={Dc} />
           <Route exact path={route.HEROESID} component={Heroes} />
