@@ -9,6 +9,8 @@ export const Login = ({ history }) => {
 
   const handleLogin = () => {
 
+    const lastPath = localStorage.getItem('lastPath') || '/';
+
     dispatch({
       type: types.login,
       payload: {
@@ -18,9 +20,8 @@ export const Login = ({ history }) => {
 
     // No elimina la historia de navegación 
     // history.push("/");
-
     //Elimina la historia de navegación
-    history.replace("/");
+    history.replace(lastPath);
   };
 
   return (
