@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: var(--or);
+}
+
+.nav-left a {
+    margin-right: 40px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.activeNav {
+    color: var(--sky);
+}
+
+.text {
+    margin: 0;
+    display: inline-block;
+    margin-right: 40px; 
+}

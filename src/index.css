@@ -39,26 +39,6 @@ body {
   padding: 30px 80px;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 60px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-right: 40px;
-}
-nav a:hover {
-  color: var(--or);
-}
-
-.activeNav {
-  color: var(--sky);
-}
-
 button {
   width: 200px;
   height: 40px;

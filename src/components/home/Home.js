@@ -12,9 +12,9 @@ export const Home = () => {
   }
 
   return (
-    <div className="home-wrap">
+    <div className="home-wrap animate__animated animate__fadeIn">
       <h1>HEROES APP</h1>
-      {heroesRandom.map((hero) => (
+      {heroes.map((hero) => (
         <HeroCard key={hero.id} {...hero} />
       ))}
     </div>
