@@ -13,7 +13,7 @@ export const HeroCard = ({
   return (
     <div className="card-wrap">
       <div className="card-img">
-        <img src={`./public/assets/${id}.jpg`} alt={superhero} className="img" />
+        <img src={`./assets/${id}.jpg`} alt={superhero} className="img" />
       </div>
       <div className="card-body">
         <h3>{superhero}</h3>
